@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://pp:pocketpills@c9.app.pocketpills.com/')
 
 WebUI.setText(findTestObject('Object Repository/Page_Online Pharmacy Canada Prescription De_e7c16e/input__home-input full-width ng-untouched n_e712d6'), 
-    '1999115811')
+    '1999115991')
 
 WebUI.click(findTestObject('Object Repository/Page_Online Pharmacy Canada Prescription De_e7c16e/span_PROCEED SECURELY'))
 
@@ -68,7 +68,7 @@ WebUI.click(findTestObject('Object Repository/Page_Online Pharmacy Canada Prescr
 
 WebUI.click(findTestObject('Object Repository/Page_Online Pharmacy Canada Prescription De_e7c16e/div_Complete your profile'))
 
-WebUI.uploadFileWithDragAndDrop('/Users/nikunjahuja/Desktop/')
+WebUI.uploadFile(findTestObject('Add Health card/Add Health Card(front)'), '/Users/nikunjahuja/Desktop/Screenshot.png')
 
 WebUI.click(findTestObject('Object Repository/Page_Online Pharmacy Canada Prescription De_e7c16e/div_Continue'))
 

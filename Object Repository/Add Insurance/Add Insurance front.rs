@@ -11,12 +11,12 @@
          <value>../../Desktop/Screen Shot 2021-04-19 at 11.08.14 AM.png</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.img-upload</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Both front &amp; back images are mandatory for filling the prescription'])[1]/following::div[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.img-upload</value>
       </entry>
       <entry>
          <key>BASIC</key>

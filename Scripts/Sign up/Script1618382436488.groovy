@@ -19,12 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://pp:pocketpills@testapp.pocketpills.com/')
-
-WebUI.setText(findTestObject('Object Repository/Page_Online Pharmacy Canada Prescription De_e7c16e/input__home-input full-width ng-untouched n_e712d6'), 
-    '1134995811')
+WebUI.navigateToUrl('https://pp:pocketpills@c9.app.pocketpills.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_Online Pharmacy Canada Prescription De_e7c16e/span_PROCEED SECURELY'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Online Pharmacy Canada Prescription De_e7c16e/input__home-input full-width ng-untouched n_e712d6'), 
+    '1199999911')
 
 WebUI.setText(findTestObject('Object Repository/Page_Online Pharmacy Canada Prescription De_e7c16e/input_First Name_firstName'), 
     'Nikunj')
@@ -67,6 +67,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Online Pharmacy Ca
 WebUI.click(findTestObject('Object Repository/Page_Online Pharmacy Canada Prescription De_e7c16e/button_Next'))
 
 WebUI.click(findTestObject('Object Repository/Page_Online Pharmacy Canada Prescription De_e7c16e/div_Complete your profile'))
+
+WebUI.uploadFile(findTestObject('Add Health card/Add Health Card(front)'), 'file:///Users/nikunjahuja/Desktop/Screenshot')
 
 WebUI.click(findTestObject('Object Repository/Page_Online Pharmacy Canada Prescription De_e7c16e/div_Continue'))
 
