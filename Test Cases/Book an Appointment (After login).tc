@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Booking an appointment after login</description>
+   <name>Book an Appointment (After login)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f11b5d09-eeb9-4e12-a521-cba8ccc5beed</testCaseGuid>
+</TestCaseEntity>

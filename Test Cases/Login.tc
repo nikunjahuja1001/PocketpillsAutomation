@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Just login with exisiting account</description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef43c1ea-90c7-4eb6-acea-a74576909732</testCaseGuid>
+</TestCaseEntity>

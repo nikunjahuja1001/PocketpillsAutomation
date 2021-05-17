@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Book an Appointment for an existing account from landing page</description>
+   <name>Book an Appointment(From landing page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9d30ca4-4115-4964-9a15-bcffc48cf246</testCaseGuid>
+</TestCaseEntity>
